@@ -10,4 +10,4 @@ RUN mvn -f /home/app/pom.xml clean package
 
 EXPOSE 8080
 
-COPY target/spring-security.war /usr/local/tomcat/webapps/
+COPY spring-security.war /usr/local/tomcat/webapps/
