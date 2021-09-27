@@ -1,4 +1,4 @@
-FROM quay.io/eclipse/che-java8-maven:nightly
+FROM tomcat:8.5.47-jdk8-openjdk
 
 USER root
 
