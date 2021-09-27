@@ -1,4 +1,4 @@
-FROM tomcat:8
+FROM quay.io/eclipse/che-java8-maven:nightly
 
 USER root
 
